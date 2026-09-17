@@ -25,6 +25,7 @@
       <a href="#renovation">Renovation</a>
       <a href="#momentum">Momentum</a>
       <a href="#recolonization">Recolonization</a>
+      <a href="#newsletter">Newsletter</a>
       <a href="portal.html" class="btn btn-outline">Alumni Portal</a>
       <a href="https://www.lambdachi.org/" class="btn btn-gold" target="_blank" rel="noopener">International Fraternity</a>
     </nav>
@@ -148,6 +149,85 @@
     </div>
   </section>
 
+  <section class="newsletter-section" id="newsletter">
+    <div class="wrap">
+      <div class="crest-divider">
+        <span class="line"></span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="#C9A544" stroke-width="1.4"><path d="M12 2l8 3v6c0 5-3.5 8.5-8 11-4.5-2.5-8-6-8-11V5l8-3z"/><path d="M12 7v10M8 10h8"/></svg>
+        <span class="line"></span>
+      </div>
+
+      <div id="mlb2-46054539" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-46054539">
+        <div class="ml-form-align-center">
+          <div class="ml-form-embedWrapper embedForm">
+            <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
+              <div class="ml-form-embedContent">
+                <h4>Alumni &amp; Friends of ZHZ of Lambda Chi Alpha</h4>
+                <p>Sign up for alumni &amp; chapter news on chapter house renovations and recolonization.</p>
+              </div>
+
+              <form class="ml-block-form" action="https://assets.mailerlite.com/jsonp/2642235/forms/198878280083834230/subscribe" data-code="" method="post" target="_blank">
+                <div class="ml-form-formContent">
+                  <div class="ml-form-fieldRow">
+                    <div class="ml-field-group ml-field-name ml-validate-required">
+                      <label>Name</label>
+                      <input aria-label="name" aria-required="true" type="text" class="form-control" name="fields[name]" placeholder="" autocomplete="given-name">
+                    </div>
+                  </div>
+                  <div class="ml-form-fieldRow">
+                    <div class="ml-field-group ml-field-last_name">
+                      <label>Last name</label>
+                      <input aria-label="last_name" type="text" class="form-control" name="fields[last_name]" placeholder="" autocomplete="family-name">
+                    </div>
+                  </div>
+                  <div class="ml-form-fieldRow ml-last-item">
+                    <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
+                      <label>Email</label>
+                      <input aria-label="email" aria-required="true" type="email" class="form-control" name="fields[email]" placeholder="" autocomplete="email">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="ml-form-checkboxRow ml-validate-required">
+                  <label class="checkbox">
+                    <input type="checkbox">
+                    <div class="label-description">
+                      <p>Opt in to receive news and updates.</p>
+                    </div>
+                  </label>
+                </div>
+
+                <div class="ml-form-recaptcha ml-validate-required" style="float: left;">
+                  <script src="https://www.google.com/recaptcha/api.js"></script>
+                  <div class="g-recaptcha" data-sitekey="6Lf1KHQUAAAAAFNKEX1hdSWCS3mRMv4FlFaNslaD"></div>
+                </div>
+
+                <input type="hidden" name="ml-submit" value="1">
+
+                <div class="ml-form-embedSubmit">
+                  <button type="submit" class="primary">Subscribe</button>
+                  <button disabled="disabled" style="display: none;" type="button" class="loading">
+                    <div class="ml-form-embedSubmitLoad"></div>
+                    <span class="sr-only">Loading...</span>
+                  </button>
+                </div>
+
+                <input type="hidden" name="anticsrf" value="true">
+              </form>
+            </div>
+
+            <div class="ml-form-successBody row-success" style="display: none">
+              <div class="ml-form-successContent">
+                <h4>Thank you!</h4>
+                <p>You have successfully joined our subscriber list.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </main>
 
 <footer class="site-footer">
@@ -182,5 +262,15 @@
 </footer>
 
 <script src="assets/main.js"></script>
+
+<script>
+  function ml_webform_success_46054539() {
+    var $ = ml_jQuery || jQuery;
+    $('.ml-subscribe-form-46054539 .row-success').show();
+    $('.ml-subscribe-form-46054539 .row-form').hide();
+  }
+</script>
+<script src="https://groot.mailerlite.com/js/w/webforms.min.js?v83147fa8ce2d95cb73ece7f28b469519"></script>
+<script>fetch("https://assets.mailerlite.com/jsonp/2642235/forms/198878280083834230/takel")</script>
 </body>
 </html>

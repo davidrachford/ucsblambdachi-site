@@ -491,3 +491,90 @@ footer.site-footer {
   html { scroll-behavior: auto; }
   * { transition: none !important; }
 }
+
+/* ---------- Newsletter signup (MailerLite embed reskin) ---------- */
+#mlb2-46054539.ml-form-embedContainer {
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+  width: 100% !important;
+}
+#mlb2-46054539.ml-form-embedContainer .ml-form-embedWrapper {
+  background: #fff;
+  border: 1px solid rgba(59,31,107,0.1);
+  border-radius: var(--radius);
+  box-shadow: 0 20px 40px -28px rgba(36,17,69,0.25);
+  width: 100% !important;
+  max-width: 560px !important;
+  margin: 0 auto;
+  padding: 0;
+}
+#mlb2-46054539.ml-form-embedContainer .ml-form-embedBody {
+  padding: 40px 40px 30px !important;
+}
+#mlb2-46054539.ml-form-embedContainer .ml-form-embedContent h4 {
+  font-family: var(--font-display) !important;
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+  color: var(--purple-deep) !important;
+}
+#mlb2-46054539.ml-form-embedContainer .ml-form-embedContent p {
+  font-family: var(--font-body) !important;
+  color: var(--stone) !important;
+  font-size: 15px !important;
+}
+#mlb2-46054539.ml-form-embedContainer .ml-field-group label {
+  font-family: var(--font-body) !important;
+  color: var(--ink) !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+#mlb2-46054539.ml-form-embedContainer .ml-form-fieldRow input {
+  font-family: var(--font-body) !important;
+  border: 1.5px solid #e2ddea !important;
+  border-radius: var(--radius) !important;
+  padding: 11px 12px !important;
+  font-size: 15px !important;
+  color: var(--ink) !important;
+  transition: border-color 0.15s ease;
+}
+#mlb2-46054539.ml-form-embedContainer .ml-form-fieldRow input:focus {
+  border-color: var(--gold) !important;
+  outline: none;
+}
+#mlb2-46054539.ml-form-embedContainer .ml-form-checkboxRow .label-description p {
+  font-family: var(--font-body) !important;
+  color: var(--stone) !important;
+  font-size: 13px !important;
+}
+#mlb2-46054539.ml-form-embedContainer .ml-form-checkboxRow input[type="checkbox"]:checked ~ .label-description::before {
+  border-color: var(--gold) !important;
+  background-color: var(--gold) !important;
+}
+#mlb2-46054539.ml-form-embedContainer .ml-form-embedSubmit button {
+  background: var(--gold) !important;
+  border: none !important;
+  border-radius: var(--radius) !important;
+  font-family: var(--font-body) !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  letter-spacing: 0.02em;
+  color: var(--purple-ink) !important;
+  padding: 13px !important;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+#mlb2-46054539.ml-form-embedContainer .ml-form-embedSubmit button:hover {
+  background: var(--gold-bright) !important;
+  transform: translateY(-1px);
+}
+#mlb2-46054539.ml-form-embedContainer .ml-form-successContent h4 {
+  font-family: var(--font-display) !important;
+  color: var(--purple-deep) !important;
+}
+
+.newsletter-section {
+  background: var(--paper-dim);
+  padding: 88px 0;
+}
