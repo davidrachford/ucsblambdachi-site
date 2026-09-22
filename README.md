@@ -55,3 +55,17 @@ DNS changes can take a few hours to propagate.
 ## Phase 2: real Alumni Portal
 
 `portal.html` is a placeholder. For actual member accounts (login, meeting minutes, financials, archives), you'll need a backend — GitHub Pages alone can't do auth. Recommended path: Supabase (free tier) for auth + a members-only database, layered onto this same static site. Ask Claude to help wire this up when you're ready.
+
+## Adding blog posts (blog.html)
+
+Posts live directly in `blog.html`, newest at the top. Add a new one like this:
+
+```html
+<article class="post-card">
+  <p class="post-date">Month Year</p>
+  <h2>Post Title</h2>
+  <div class="post-body">
+    <p>Your text here.</p>
+  </div>
+</article>
+```
