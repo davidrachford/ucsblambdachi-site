@@ -646,3 +646,58 @@ footer.site-footer {
 @media (max-width: 560px) {
   .post-images { grid-template-columns: 1fr; }
 }
+
+/* ---------- Long-form update posts ---------- */
+.post-kicker {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--purple-deep);
+  margin-bottom: 2px;
+}
+.post-tagline {
+  font-style: italic;
+  color: var(--stone);
+  font-size: 14.5px;
+  margin-bottom: 14px;
+}
+.post-body h3 {
+  font-size: 1.25rem;
+  color: var(--purple-deep);
+  margin: 30px 0 12px;
+}
+.post-body ul { margin: 0 0 1em; padding-left: 0; color: #3a3442; }
+.post-body ul.post-list { padding-left: 22px; }
+.post-body ul.post-list li { margin-bottom: 6px; }
+.post-body ul.check-list { list-style: none; }
+.post-body ul.check-list li {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 8px;
+}
+.post-body ul.check-list li::before {
+  content: "\2713";
+  position: absolute;
+  left: 4px;
+  top: 0;
+  color: var(--gold);
+  font-weight: 700;
+}
+.post-figure { margin: 22px 0; }
+.post-figure img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  border: 1px solid rgba(59,31,107,0.1);
+}
+.post-figure figcaption {
+  font-size: 12.5px;
+  color: var(--stone);
+  margin-top: 6px;
+}
+.post-cta { margin: 24px 0 8px; }
+.post-cta .btn { white-space: normal; text-align: center; }
+.post-cta-note { font-size: 13.5px; color: var(--stone); }
+.hero-update { margin-top: 18px; font-size: 14.5px; }
+.hero-update a { color: var(--gold-bright); font-weight: 600; text-decoration: none; }
+.hero-update a:hover { text-decoration: underline; }
